@@ -1,10 +1,11 @@
+*[Telegraph]: The Linker-Gendelsman Telecommunication Graphical System
 ## Welcome to the future of communication.
 
 We're using cutting edge technology, adaptable software, and human ingenuity to revolutionize the way we communicate. Introducing:
 
 # The Linker-Gendelsman Telecommunication Graphical System
 
-Often shortened to "Telegraph" for efficiency, the LGTGS is the base hardware and language for the full Morsr product line, expected to release Summer 2018. Using the telegraph, each letter in the alphabet is converted into "dots" and "dashes" as shown in the code block below.
+Often shortened to "Telegraph" for efficiency, the LGTGS is the base hardware and language for the full Morsr product line, expected to release Summer 2018. When using the Telegraph, each letter in the alphabet is converted into "dots" and "dashes" as shown in the code block below. These codes can be displayed both visually through an LED module, audibly through a buzzer module, or physically through a vibration module.
 
 ~~~~
 Letter 	Morse
