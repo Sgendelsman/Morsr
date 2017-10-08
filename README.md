@@ -1,8 +1,41 @@
-## Welcome to GitHub Pages
+## Welcome to the future of communication.
 
-You can use the [editor on GitHub](https://github.com/Sgendelsman/Morsr/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+We're using cutting edge technology, adaptable software, and human ingenuity to revolutionize the way we communicate. Introducing:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# The Linker-Gendelsman Telecommunication Graphical System
+
+Often shortened to "Telegraph" for efficiency, the LGTGS is the base hardware and language for the full Morsr product line, expected to release Summer 2018. Using the telegraph, each letter in the alphabet is converted into "dots" and "dashes" as shown in the code block below.
+
+~~~~
+Letter 	Morse
+A 	.-
+B 	-...
+C 	-.-.
+D 	-..
+E 	.
+F 	..-.
+G 	--.
+H 	....
+I 	..
+J 	.---
+K 	-.-
+L 	.-..
+M 	--
+Letter 	Morse
+N 	-.
+O 	---
+P 	.--.
+Q 	--.-
+R 	.-.
+S 	...
+T 	-
+U 	..-
+V 	...-
+W 	.--
+X 	-..-
+Y 	-.--
+Z 	--..
+~~~~
 
 ### Markdown
 
