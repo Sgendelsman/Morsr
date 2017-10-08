@@ -57,7 +57,7 @@ If you answered yes to any or all of those questions, then we've got the dating 
 
 ### Independence Day Day
 
-![](IndepDay.jpg)
+![](Graphics/IndepDay.jpg)
 
 By now, I'm sure you've seen the classic Will Smith and Jeff Goldblum film "independence Day," in which the Telegraph is used to communicate between human miltary organizations in order to coordinate attacks against the extraterrestrial invaders. As this was a monumental step in promotion of our technology, we've declared **July 3rd** of each year to be **Independence Day Day**, on which it is customary to read out Bill Pullman's rousing speech as President of the United States on your Telegraph device(s)!
 
