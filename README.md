@@ -1,15 +1,20 @@
 *[Telegraph]: The Linker-Gendelsman Telecommunication Graphical System
+*[MORSE]: Main Original Response Standard Environment
 
-## Welcome to the future of communication.
+# Welcome to the future of communication.
 
 We're using cutting edge technology, adaptable software, and human ingenuity to revolutionize the way we communicate. Introducing:
 
-# The Linker-Gendelsman Telecommunication Graphical System
+## The Linker-Gendelsman Telecommunication Graphical System
 
-Often shortened to "Telegraph" for efficiency, the LGTGS is the base hardware and language for the full Morsr product line, expected to release Summer 2018. When using the Telegraph, each letter in the alphabet is converted into "dots" and "dashes" as shown in the code block below. These codes can be displayed both visually through an LED module, audibly through a buzzer module, or physically through a vibration module.
+Often shortened to "Telegraph" for efficiency, the LGTGS is the base hardware and language for the full Morsr product line, expected to release Summer 2018. When using the Telegraph, each letter in the alphabet is converted into "dots" and "dashes". These codes can be displayed visually through an LED module, audibly through a buzzer module, or physically through a vibration module. These codes are formally referred to as: 
+
+## Main Original Response Standard Environment
+
+As we understand that this is a bulky name, it can be abbreviated to M.O.R.S.E. to save time. The English alphabet is shown below with each letter's corresponding MORSE code.
 
 ~~~~
-Letter 	Morse
+Letter 	MORSE
 A 	.-
 B 	-...
 C 	-.-.
@@ -63,15 +68,7 @@ By now, I'm sure you've seen the classic Will Smith and Jeff Goldblum film "inde
 
 ### Morsr Alarm Box
 
-With 21st Century smoke detectors and ceiling sprinklers constantly advancing to deeper and deeper levels of complexity and connectivity, we wanted to roll out a new set of safety devices that will be able to help first responders across the country. Using our new Fyre Alarm Boxes, a Firehouse Watchdesk can connect to street corners up to **30 feet away**. All a civilian has to do is start a fire, realize arson is a crime, run to the street corner, and pull the Telegraph Fyre Alarm Box!
-
-We assembled a crack team of specialists from around the world to make sure this device would be truly unique. Here is what they had to say about the up-and-coming innovations we keep churning out:
-
->"Who is this? Why do you keep calling me?"
->-James E. Leonard, Chief of New York City Fire Department
-
->"Don't believe everything you read on the internet!"
->-Abraham Lincoln
+With 21st Century smoke detectors and ceiling sprinklers constantly advancing to deeper and deeper levels of complexity and connectivity, we wanted to roll out a new set of safety devices that will be able to help first responders across the country. Using our new Morsr Alarm Boxes, a Firehouse Watchdesk can connect to street corners up to **30 miles away**. All a civilian has to do is pull the nearest Morsr Alarm Box to a fire, and the department will be signalled with that box number.
 
 ### Markdown
 
