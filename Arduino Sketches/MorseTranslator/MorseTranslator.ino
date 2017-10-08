@@ -1,13 +1,14 @@
 #include <TimerOne.h>
 #include "Wire.h"
-#include "Lewis.h"
 #include <rgb_lcd.h>
 
+// LCD Screen constants
 rgb_lcd lcd;
-
-const int colorR = 255;
-const int colorG = 176;
+const int colorR = 0;
+const int colorG = 255;
 const int colorB = 0;
+
+// button that sends Telegraph signal
 const int buttonPin = 2;
 
 /* NUMBERS FOR TIME FOR DOTS/DASHES */
@@ -31,6 +32,7 @@ int morse_code_alphabet[36][5];
 char corresponding_letter[36];
 
 void setup() {
+  //we hardcoded in the translation for each letter of the alphabet, with room for expansion into numbers.
   morse_code_alphabet[0][0] = 0;
   morse_code_alphabet[0][1] = 1;
   morse_code_alphabet[0][2] = -1;
@@ -216,7 +218,7 @@ void setup() {
   pinMode(2, INPUT_PULLUP);
   pinMode(3, OUTPUT);
   pinMode(13, OUTPUT);
-
+  
   for(int i = 0; i < 5; i++)
     character[i] = -1;
     
@@ -227,6 +229,7 @@ void setup() {
   Serial.begin(9600);
   lcd.begin(16, 2);
   lcd.setRGB(colorR, colorG, colorB);
+  lcd.print("The TeleGraph!");
 }
 
 void incrementTime()
@@ -235,25 +238,7 @@ void incrementTime()
 }
 
 void loop() {
-  /*float secondsHeld = 0;
-  int isHeld = 1;
-  while(digitalRead(buttonPin)==HIGH){
-        secondsHeld+=1;
-        delay(200);
-    }
-  if (secondsHeld >=2) {
-    lcd.print("-");
-    tone(4);
-    delay(1000);
-    digitalWrite(4, LOW);
-  }
-  else if (secondsHeld >0){
-    lcd.print(". ");
-    digitalWrite(4, HIGH);
-    delay(30);
-    digitalWrite(4, LOW);
-    
-  }*/
+  // No loop code needed!
 } 
 
 void addCharInput()
@@ -270,7 +255,7 @@ void addCharInput()
     }
     if(found_letter == 1)
     {
-       //corresponding_letter[i]);
+       Serial.print(corresponding_letter[i]);
        break;
     }
   }
@@ -291,7 +276,6 @@ void print(double value)
 {
   char outstr[15];
   dtostrf(value,7, 3, outstr);
-
   Serial.println(outstr);
 }
 
