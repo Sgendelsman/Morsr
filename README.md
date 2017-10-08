@@ -44,7 +44,7 @@ Z 	--..
 ~~~~
 
 
-## Applications
+# Applications
 
 The Telegraph is a versatile tool, usable for a wide variety of markets and solutions. Our Summer 2018 launh will include the following three intitiatives, but more are planned for down the line.
 
@@ -68,36 +68,8 @@ By now, I'm sure you've seen the classic Will Smith and Jeff Goldblum film "inde
 
 ### Morsr Alarm Box
 
-With 21st Century smoke detectors and ceiling sprinklers constantly advancing to deeper and deeper levels of complexity and connectivity, we wanted to roll out a new set of safety devices that will be able to help first responders across the country. Using our new Morsr Alarm Boxes, a Firehouse Watchdesk can connect to street corners up to **30 miles away**. All a civilian has to do is pull the nearest Morsr Alarm Box to a fire, and the department will be signalled with that box number.
+With 21st Century smoke detectors and ceiling sprinklers constantly advancing to deeper and deeper levels of complexity and connectivity, we wanted to roll out a new set of safety devices that will be able to help first responders across the country. Using our new Morsr Alarm Boxes, a Firehouse Watchdesk can connect to street corners up to **30 miles away**. All a civilian has to do is pull the nearest Morsr Alarm Box to a fire, and the department will be signaled with that box number.
 
-### Markdown
+# The Future
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Sgendelsman/Morsr/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Our hack has a very low bar to entry; anyone with access to basic electronic components can create their own "Do-It-Yourself" Telegraph. If truly inspired, one could memorize MORSE code and practice till an Arduino Sketch is slower than their mental translation! Those with the funds would be able to buy official Morsr brand products, patent pending. The possibilities for MORSE code and the Telegraph are seemingly endless, making the future much closer than you think.
