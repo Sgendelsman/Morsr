@@ -1,8 +1,61 @@
-## Welcome to GitHub Pages
+*[Telegraph]: The Linker-Gendelsman Telecommunication Graphical System
+## Welcome to the future of communication.
 
-You can use the [editor on GitHub](https://github.com/Sgendelsman/Morsr/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+We're using cutting edge technology, adaptable software, and human ingenuity to revolutionize the way we communicate. Introducing:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# The Linker-Gendelsman Telecommunication Graphical System
+
+Often shortened to "Telegraph" for efficiency, the LGTGS is the base hardware and language for the full Morsr product line, expected to release Summer 2018. When using the Telegraph, each letter in the alphabet is converted into "dots" and "dashes" as shown in the code block below. These codes can be displayed both visually through an LED module, audibly through a buzzer module, or physically through a vibration module.
+
+~~~~
+Letter 	Morse
+A 	.-
+B 	-...
+C 	-.-.
+D 	-..
+E 	.
+F 	..-.
+G 	--.
+H 	....
+I 	..
+J 	.---
+K 	-.-
+L 	.-..
+M 	--
+Letter 	Morse
+N 	-.
+O 	---
+P 	.--.
+Q 	--.-
+R 	.-.
+S 	...
+T 	-
+U 	..-
+V 	...-
+W 	.--
+X 	-..-
+Y 	-.--
+Z 	--..
+~~~~
+
+
+## Applications
+
+The Telegraph is a versatile tool, usable for a wide variety of markets and solutions. Our Summer 2018 launh will include the following three intitiatives, but more are planned for down the line.
+
+### Morsr Dating
+
+_Are you single?_
+
+_Do you have trouble communicating your feelings with **words**?_
+
+_Does your heart soar when you think of the Linker-Gendelsman Telecommunication Graphical System?_
+
+If you answered yes to any or all of those questions, then we've got the dating app for you! Morsr is a free platform for Telegraph enthusiasts to meet people and find love. "Swipe" left or right to judge your possible matches, just like on other dating apps. But unlike others, Morsr has no keyboard; only a single button! Morsr Dating will launch with a premium subscription that removes pictures altogether in favor of user inputted descriptions of themselves.
+
+### Independence Day Day
+
+By now, I'm sure you've seen the classic Will Smith and Jeff Goldblum film "independence Day," in which the Telegraph is used to communicate between human miltary organizations in order to coordinate attacks against the extraterrestrial invaders. As this was a monumental step in promotion of our technology, we've declared **July 3rd** of each year to be **Independence Day Day**, on which it is customary to read out Bill Pullman's rousing speech as President of the United States on your Telegraph device(s)!
 
 ### Markdown
 
