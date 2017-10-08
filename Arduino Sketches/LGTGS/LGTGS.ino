@@ -25,19 +25,22 @@ double space_between_words = 1.000;
 int num_space_words = 1;
 /* -------------------------------- */
 
-int character[5];
+char character[5];
 int char_counter = 0;
 
-const int morse_code_alphabet[36][5];
+const char morse_code_alphabet[36][5];
 char corresponding_letter[36];
 
 void setup() {
+  morse_code_alphabet[0] = ".-///";
+  corresponding_letter[0] = { 'a' };
+  
   pinMode(2, INPUT_PULLUP);
   pinMode(3, OUTPUT);
   pinMode(13, OUTPUT);
 
   for(int i = 0; i < 5; i++)
-    character[i] = -1;
+    character[i] = '/';
     
   attachInterrupt(digitalPinToInterrupt(2), PressedDown, CHANGE);
   Timer1.initialize(10000);
@@ -78,13 +81,26 @@ void loop() {
 
 void addCharInput()
 {
-  for(int i = 0; i < 5 && character[i] != -1; i++)
+  for(int i = 0; i < 36; i++)
   {
-    if(character[i] == 1)
-      Serial.write("-");
-    else if(character[i] == 0)
-      Serial.write(".");
-    character[i] = -1;
+    int found_letter = 0;
+    for(int j = 0; j < 5 && character[j] != -1; j++)
+    {
+      if(morse_code_alphabet[i][j] == character[j])
+        found_letter = 1;
+      else
+        found_letter = 0;
+      /*if(character[i] == 1)
+        Serial.write("-");
+      else if(character[i] == 0)
+        Serial.write(".");
+      character[i] = -1;*/
+    }
+    if(found_letter == 1)
+    {
+       Serial.write(corresponding_letter[i]);
+       break;
+    }
   }
   Serial.write(" ");
   char_counter = 0;
@@ -110,16 +126,22 @@ void PressedDown()
 
     if(char_counter != 0 && space_error < word_error) // Space between dot/dash
     {
-      space_between_dots = (space_between_dots * num_space_dots + time_passed) / (num_space_dots + 1);
-      num_space_dots++;
+      if(abs(space_between_dots - time_passed) / space_between_dots < 0.4)
+      {
+        space_between_dots = (space_between_dots * num_space_dots + time_passed) / (num_space_dots + 1);
+        num_space_dots++;
+      }
       
       justAdded = 0;
     }
     else // Space between word
     {
-      space_between_words = (space_between_words * num_space_words + time_passed) / (num_space_words + 1);
-      num_space_words++;
-
+      if(abs(space_between_words - time_passed) / space_between_words < 0.4)
+      {
+        space_between_words = (space_between_words * num_space_words + time_passed) / (num_space_words + 1);
+        num_space_words++;
+      }
+      
       if(!justAdded)
         addCharInput();
     }
@@ -134,10 +156,13 @@ void PressedDown()
     
     if(dot_error < dash_error) // Dot
     {
-      dot_length = (dot_length * num_dots + time_passed) / (num_dots + 1);
-      num_dots++;
-
-      character[char_counter++] = 0;
+      if(abs(dot_length - time_passed) / dot_length < 0.4)
+      {
+        dot_length = (dot_length * num_dots + time_passed) / (num_dots + 1);
+        num_dots++;
+      }
+      
+      character[char_counter++] = '.';
       
       justAdded = 0;
       if(char_counter == 5)
@@ -154,7 +179,7 @@ void PressedDown()
         num_dashes++;
       }
       
-      character[char_counter++] = 1;
+      character[char_counter++] = '-';
 
       justAdded = 0;
       if(char_counter == 5)
@@ -168,5 +193,5 @@ void PressedDown()
   }
 
   time_passed = 0.000000;
-  delay(15);
+  delay(20);
 }
