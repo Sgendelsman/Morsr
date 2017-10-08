@@ -22,7 +22,6 @@ J 	.---
 K 	-.-
 L 	.-..
 M 	--
-Letter 	Morse
 N 	-.
 O 	---
 P 	.--.
