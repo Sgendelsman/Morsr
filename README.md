@@ -38,6 +38,20 @@ Y 	-.--
 Z 	--..
 ~~~~
 
+
+## Applications
+
+The Telegraph is a versatile tool, usable for a wide variety of markets and solutions. Our Summer 2018 launh will include the following three intitiatives, but more are planned for down the line.
+
+### Morsr Dating
+
+_Are you single?_
+_Do you have trouble communicating your feelings with **words**?__
+_Does your heart soar when you think of the Linker-Gendelsman Telecommunication Graphical System?_
+
+If you answered yes to any or all of those questions, then we've got the dating app for you! Morsr is a free platform for Telegraph enthusiasts to meet people and find love. "Swipe" left or right to judge your possible matches, just like on other dating apps. But unlike others, Morsr has no keyboard; only a single button!
+
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
