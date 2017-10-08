@@ -1,7 +1,5 @@
 *[Telegraph]: The Linker-Gendelsman Telecommunication Graphical System
 
-![](Graphics/smashMouth.wav)
-
 ## Welcome to the future of communication.
 
 We're using cutting edge technology, adaptable software, and human ingenuity to revolutionize the way we communicate. Introducing:
