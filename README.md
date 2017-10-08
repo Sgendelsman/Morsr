@@ -9,7 +9,7 @@ We're using cutting edge technology, adaptable software, and human ingenuity to 
 
 Often shortened to "Telegraph" for efficiency, the LGTGS is the base hardware and language for the full Morsr product line, expected to release Summer 2018. When using the Telegraph, each letter in the alphabet is converted into "dots" and "dashes". These codes can be displayed visually through an LED module, audibly through a buzzer module, or physically through a vibration module. These codes are formally referred to as: 
 
-## Main Original Response Standard Environment
+## Main Original Response Signal Extender
 
 As we understand that this is a bulky name, it can be abbreviated to M.O.R.S.E. to save time. The English alphabet is shown below with each letter's corresponding MORSE code.
 
