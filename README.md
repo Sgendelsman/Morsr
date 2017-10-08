@@ -70,6 +70,8 @@ By now, I'm sure you've seen the classic Will Smith and Jeff Goldblum film "inde
 
 With 21st Century smoke detectors and ceiling sprinklers constantly advancing to deeper and deeper levels of complexity and connectivity, we wanted to roll out a new set of safety devices that will be able to help first responders across the country. Using our new Morsr Alarm Boxes, a Firehouse Watchdesk can connect to street corners, with tests showing the signal can move along a cable nearly **3 feet long**. All a civilian has to do is pull the nearest Morsr Alarm Box to a fire, and the department will be signaled by that box.
 
+![](assets/fireBox.jpg)
+
 # The Future
 
 Our hack has a very low bar to entry; anyone with access to basic electronic components can create their own "Do-It-Yourself" Telegraph. If truly inspired, one could memorize MORSE code and practice till an Arduino Sketch is slower than their mental translation! Those with the funds would be able to buy official Morsr brand products, patent pending. The possibilities for MORSE code and the Telegraph are seemingly endless, making the future much closer than you think.
