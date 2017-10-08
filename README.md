@@ -60,7 +60,7 @@ _Does your heart soar when you think of the Linker-Gendelsman Telecommunication 
 
 If you answered yes to any or all of those questions, then we've got the dating app for you! Morsr is a free platform for Telegraph enthusiasts to meet people and find love. "Swipe" left or right to judge your possible matches, just like on other dating apps. But unlike others, Morsr has no keyboard; only a single button! Morsr Dating will launch with a premium subscription that removes pictures altogether in favor of user inputted descriptions of themselves.
 
-### Morsr Independence Day Day
+### Morsr "Independence Day" Day
 
 ![](assets/IndepDay.jpg)
 
