@@ -46,7 +46,7 @@ Z 	--..
 
 # Applications
 
-The Telegraph is a versatile tool, usable for a wide variety of markets and solutions. Our Summer 2018 launh will include the following three intitiatives, but more are planned for down the line.
+The Telegraph is a versatile tool, usable for a wide variety of markets and solutions. Our Summer 2018 launch will include the following three intitiatives, but more are planned for down the line.
 
 ### Morsr Dating
 
@@ -56,19 +56,19 @@ _Do you have trouble communicating your feelings with **words**?_
 
 _Does your heart soar when you think of the Linker-Gendelsman Telecommunication Graphical System?_
 
-![](Graphics/PhoneMockupDating.png)
+![](assets/PhoneMockupDating.png)
 
 If you answered yes to any or all of those questions, then we've got the dating app for you! Morsr is a free platform for Telegraph enthusiasts to meet people and find love. "Swipe" left or right to judge your possible matches, just like on other dating apps. But unlike others, Morsr has no keyboard; only a single button! Morsr Dating will launch with a premium subscription that removes pictures altogether in favor of user inputted descriptions of themselves.
 
 ### Morsr Independence Day Day
 
-![](Graphics/IndepDay.jpg)
+![](assets/IndepDay.jpg)
 
 By now, I'm sure you've seen the classic Will Smith and Jeff Goldblum film "independence Day," in which the Telegraph is used to communicate between human miltary organizations in order to coordinate attacks against the extraterrestrial invaders. As this was a monumental step in promotion of our technology, we've declared **July 3rd** of each year to be **Independence Day Day**, on which it is customary to read out Bill Pullman's rousing speech as President of the United States on your Telegraph device(s)!
 
 ### Morsr Alarm Box
 
-With 21st Century smoke detectors and ceiling sprinklers constantly advancing to deeper and deeper levels of complexity and connectivity, we wanted to roll out a new set of safety devices that will be able to help first responders across the country. Using our new Morsr Alarm Boxes, a Firehouse Watchdesk can connect to street corners up to **30 miles away**. All a civilian has to do is pull the nearest Morsr Alarm Box to a fire, and the department will be signaled with that box number.
+With 21st Century smoke detectors and ceiling sprinklers constantly advancing to deeper and deeper levels of complexity and connectivity, we wanted to roll out a new set of safety devices that will be able to help first responders across the country. Using our new Morsr Alarm Boxes, a Firehouse Watchdesk can connect to street corners, with tests showing the signal can move along a cable nearly **3 feet long**. All a civilian has to do is pull the nearest Morsr Alarm Box to a fire, and the department will be signaled by that box.
 
 # The Future
 
